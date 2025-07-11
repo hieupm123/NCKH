@@ -1,0 +1,8 @@
+Flask>=2.0
+torch>=1.10      # Or your specific PyTorch version
+torchvision>=0.11 # Or your specific Torchvision version
+Pillow>=8.0
+numpy>=1.19
+timm>=0.5        # Required for ViT model definition
+scikit-learn # Only if needed for other metrics, not strictly for prediction
+# Add any other specific versions if necessary

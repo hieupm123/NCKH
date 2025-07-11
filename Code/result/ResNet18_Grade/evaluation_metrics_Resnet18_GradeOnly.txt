@@ -1,0 +1,52 @@
+
+
+--- Validation Set Performance Metrics (Best Model) ---
+Timestamp: 2025-04-06 06:50:41
+Model Path: model\best_typhoon_model_resnet18_gradeonly.pth
+Overall Accuracy: 75.53%
+
+Classification Report:
+                             precision    recall  f1-score   support
+
+Severe Tropical Storm (STS)     0.6273    0.6235    0.6254       162
+   Tropical Depression (TD)     0.8119    0.7847    0.7981       209
+        Tropical Storm (TS)     0.6364    0.7273    0.6788       231
+               Typhoon (TY)     0.9067    0.8294    0.8663       293
+
+                   accuracy                         0.7553       895
+                  macro avg     0.7456    0.7412    0.7421       895
+               weighted avg     0.7642    0.7553    0.7584       895
+
+
+Confusion Matrix:
+[[101,   2,  39,  20],
+ [  2, 164,  42,   1],
+ [ 24,  35, 168,   4],
+ [ 34,   1,  15, 243]]
+------------------------------------------------------------
+
+
+--- Test Set Performance Metrics (Best Model) ---
+Timestamp: 2025-04-06 06:50:59
+Model Path: model\best_typhoon_model_resnet18_gradeonly.pth
+Overall Accuracy: 74.67%
+
+Classification Report:
+                             precision    recall  f1-score   support
+
+Severe Tropical Storm (STS)     0.6419    0.5828    0.6109       163
+   Tropical Depression (TD)     0.7591    0.7990    0.7786       209
+        Tropical Storm (TS)     0.6163    0.6883    0.6503       231
+               Typhoon (TY)     0.9185    0.8464    0.8810       293
+
+                   accuracy                         0.7467       896
+                  macro avg     0.7339    0.7291    0.7302       896
+               weighted avg     0.7531    0.7467    0.7485       896
+
+
+Confusion Matrix:
+[[ 95,   9,  43,  16],
+ [  3, 167,  39,   0],
+ [ 25,  41, 159,   6],
+ [ 25,   3,  17, 248]]
+------------------------------------------------------------

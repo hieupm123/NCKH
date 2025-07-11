@@ -1,0 +1,17 @@
+--- Validation (Best Model) Set Classification Report ---
+
+Overall Accuracy: 76.0894%
+
+Labels present in this evaluation: [np.int64(0), np.int64(1), np.int64(2), np.int64(3)]
+Corresponding target names: ['Severe Tropical Storm (STS)', 'Tropical Depression (TD)', 'Tropical Storm (TS)', 'Typhoon (TY)']
+
+                             precision    recall  f1-score   support
+
+Severe Tropical Storm (STS)     0.7153    0.6358    0.6732       162
+   Tropical Depression (TD)     0.7466    0.7895    0.7674       209
+        Tropical Storm (TS)     0.6697    0.6320    0.6503       231
+               Typhoon (TY)     0.8558    0.9113    0.8826       293
+
+                   accuracy                         0.7609       895
+                  macro avg     0.7468    0.7421    0.7434       895
+               weighted avg     0.7568    0.7609    0.7579       895
